@@ -1,0 +1,27 @@
+# Ignore Python virtual environment  
+env/  
+venv/  
+__pycache__/  
+
+# Ignore database files  
+*.sqlite3  
+*.db  
+
+# Ignore log files  
+*.log  
+logs/  
+
+# Ignore compiled Python files  
+*.pyc  
+*.pyo  
+*.pyd  
+
+# Ignore environment variables and credentials  
+.env  
+.DS_Store  
+
+# Ignore Node.js dependencies (if using React for frontend)  
+node_modules/  
+
+# Ignore VS Code settings  
+.vscode/  
