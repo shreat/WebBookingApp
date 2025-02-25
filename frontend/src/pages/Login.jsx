@@ -10,17 +10,19 @@ function Login() {
 
   const handleLogin = () => {
     const userData = { name, role: "user" }; // Simulated user data
-    login(userData);
-    navigate("/dashboard"); // Redirect to dashboard
+    login(userData, navigate);
+
   };
     
     return (
-      <div className="container mt-5">
-      <h2>Login</h2>
-      <input type="text" className="form-control mb-3" placeholder="Enter your name" value={name}
-      onChange={(e) => setName(e.target.value)}
-      />
-      <button className="btn btn-success" onClick={handleLogin}>Login</button>
+      <div className="login-container">
+        <div className="login-box mt-4 p-5 rounded">
+          <h1>Wellness Centre Bookings</h1>
+          <input type="text" className="form-control mb-3" placeholder="Username" value={name} onChange={(e) => setName(e.target.value)} />
+          <input type="text" className="form-control mb-3" placeholder="Password" />
+          <button className="btn btn-success" onClick={handleLogin}>Login</button>
+          
+        </div>        
       </div>
     );
 }
