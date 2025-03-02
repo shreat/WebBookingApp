@@ -13,13 +13,22 @@ function Navbar() {
 
     return (
 
-        <nav className="navbar navbar-light bg-light">
-            <Link className="navbar-brand" to="/dashboard">Dashboard</Link>
-            <Link className="navbar-brand" to="/">Test</Link>
-            <span className="text-dark me-3">Welcome, {user.name || 'Guest'}!</span>
-            <button className="btn btn-danger" onClick={handleLogout}>Logout</button>
-           
-        
+        <nav className="navbar bg-light">
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Test</a>
+                </li>
+                <li class="nav-item">
+                    <span className="text-dark me-3">Welcome, {user.name || 'Guest'}!</span>
+                </li>
+                <li class="nav-item">
+                    <button className="btn btn-danger" onClick={handleLogout}>Logout</button>
+                </li>
+            </ul>
         </nav>
     );
 }
