@@ -2,20 +2,6 @@ body {
   background-color: #FFFAFA !important;
 }
 
-.bg-image-half {
-  background-image: url("assets/wave1.png");
-  background-size: contain; /* or cover */
-  background-position: bottom; /* Ensures proper positioning */
-  background-repeat: no-repeat; /* Prevent tiling */
-  height: 100vh;
-
-}
-
-.navbar {
-  background-color: #EBEBDC;
-
-}
-
 .login-box {
     display: flex;
   justify-content: center; /* Center horizontally */
