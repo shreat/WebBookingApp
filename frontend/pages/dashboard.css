@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'GoogleFontNM'; /* Choose a name for the font */
+    src: url('assets/fonts/NanumMyeongjo-Regular.ttf') format('truetype'),
+         url('assets/fonts/NanumMyeongjo-Bold.ttf') format('truetype'),
+         url('assets/fonts/NanumMyeongjo-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif ;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+header{
+    background-color: #7d3eaf;
+    
+}
+
+.container-fluid{
+    display: grid;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.side-menu a{
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.side-menu img{
+    width: 1em;
+}
