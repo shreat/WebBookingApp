@@ -13,12 +13,12 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'pages', 'index.html'));
+    res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'components', 'index.html'));
 });
 
 app.post("/dashboard", (req, res) => {
     console.log(req.body);
-    res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'pages', 'dashboard.html'));
+    res.sendFile(path.join(__dirname, '..', '..', 'frontend', 'components', 'dashboard.html'));
 });
 
 /* Mounting Middleware */
