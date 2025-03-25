@@ -9,7 +9,7 @@
 
 body {
   font-family: 'MyCustomFont', sans-serif;
-  color: rgba(0, 0, 0, 0.788);
+  color: #03020f;
 }
 
 .login-container{
@@ -41,9 +41,6 @@ body {
 
 .login-box * {
   padding: 10px 20px 10px 20px;
-  border-radius: 5px;
-  border-color: #FFFAFA;
-  box-shadow: 5px 10px 18px rgba(51, 26, 53, 0.1);
   border: none;
 }
 
