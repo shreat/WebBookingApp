@@ -69,3 +69,19 @@ form{
 .btn-success{
   background-color: #7D3EAF;
 }
+
+/*------Styles for NavBar Component-----------*/
+
+/*.container-fluid ul li{
+  width: 200px;
+}
+*/
+
+.navbar{
+  background-color: #f2f2ff;
+}
+
+.container-fluid ul *{
+  flex-grow: 1;
+}
+
