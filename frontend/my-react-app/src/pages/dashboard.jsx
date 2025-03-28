@@ -8,12 +8,21 @@ function Dashboard(){
     );
 =======
 import NavBar from "../components/NavBar";
+import SideBar from "../components/SideBar";
+import Calender from "./calender";
+import '../styles/login.css';
+
+
 
 function Dashboard() {
     return(
         <div>
             {<NavBar />}
-            <h1>Welcome to your Dashboard!</h1>
+            <div className="dashboard-main">
+                {<SideBar />}
+                {<Calender />}
+            </div>
+
         </div>
         
     );
