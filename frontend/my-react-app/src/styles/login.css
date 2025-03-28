@@ -72,16 +72,42 @@ form{
 
 /*------Styles for NavBar Component-----------*/
 
-/*.container-fluid ul li{
-  width: 200px;
-}
-*/
-
 .navbar{
-  background-color: #f2f2ff;
+  background-color: #7D3EAF;
 }
 
 .container-fluid ul *{
   flex-grow: 1;
 }
+
+/*------Styles for MenuCard Component-----------*/
+
+.card{
+  background-color: #f2f2ff;
+  color: #03020f;
+  
+
+}
+
+.card-body{
+  display: flex;
+  column-gap: 15px;
+}
+
+/*------Styles for SideBar Component-----------*/
+
+.sidebar-container{
+  background-color: #e2d5ee;
+  width: 300px;
+  padding: 20px;
+}
+
+/*------Styles for Dashboard Page-----------*/
+
+.dashboard-main{
+  background-color: #f2f2ff;
+  display: flex;
+  column-gap: 50px;
+}
+
 
