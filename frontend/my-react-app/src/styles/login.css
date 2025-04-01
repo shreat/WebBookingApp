@@ -73,17 +73,18 @@ form{
 /*------Styles for NavBar Component-----------*/
 
 .navbar{
-  background-color: #7D3EAF;
+  background-color: #684551;
 }
 
 .container-fluid ul *{
   flex-grow: 1;
+  color: white;
 }
 
 /*------Styles for MenuCard Component-----------*/
 
 .card{
-  background-color: #f2f2ff;
+  background-color: #EFE7E9;
   color: #03020f;
   
 
@@ -97,7 +98,7 @@ form{
 /*------Styles for SideBar Component-----------*/
 
 .sidebar-container{
-  background-color: #e2d5ee;
+  background-color: #E7DADF;
   width: 300px;
   padding: 20px;
 }
@@ -105,9 +106,34 @@ form{
 /*------Styles for Dashboard Page-----------*/
 
 .dashboard-main{
-  background-color: #f2f2ff;
+  background-color: #EFE7E9;
   display: flex;
   column-gap: 50px;
 }
 
+/*------Styles for Booking Form-----------*/
 
+.booking-form{
+  width: 50rem;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
